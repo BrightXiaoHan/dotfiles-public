@@ -44,4 +44,12 @@ packer.startup(function(use)
   use 'akinsho/nvim-bufferline.lua'
   use 'lewis6991/gitsigns.nvim'
   use 'dinhhuy258/git.nvim' -- For git blame & browse
+  use 'Pocco81/auto-save.nvim'
+  use 'glepnir/dashboard-nvim'
+  use {
+    'nvim-tree/nvim-tree.lua',
+    requires = {
+      'nvim-tree/nvim-web-devicons', -- optional, for file icons
+    },
+  }
 end)

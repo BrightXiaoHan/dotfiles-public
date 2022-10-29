@@ -55,3 +55,6 @@
 	process = git-lfs filter-process
 [ghq]
   root = ~/.ghq
+[user]
+	email = beatmight@gmail.com
+	name = BrightXiaoHan
