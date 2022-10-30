@@ -54,4 +54,5 @@ packer.startup(function(use)
   }
   use 'ggandor/lightspeed.nvim'
   use "terrortylor/nvim-comment"
+  use 'akinsho/toggleterm.nvim'
 end)
