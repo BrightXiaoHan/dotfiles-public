@@ -52,4 +52,6 @@ packer.startup(function(use)
       'nvim-tree/nvim-web-devicons', -- optional, for file icons
     },
   }
+  use 'ggandor/lightspeed.nvim'
+  use "terrortylor/nvim-comment"
 end)
