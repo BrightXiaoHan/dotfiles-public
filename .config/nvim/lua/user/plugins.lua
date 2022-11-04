@@ -55,4 +55,9 @@ packer.startup(function(use)
   use 'ggandor/lightspeed.nvim'
   use "terrortylor/nvim-comment"
   use 'akinsho/toggleterm.nvim'
+  use 'liuchengxu/vim-which-key'
+  use {
+    'AckslD/nvim-whichkey-setup.lua',
+    requires = {'liuchengxu/vim-which-key'},
+  }
 end)
