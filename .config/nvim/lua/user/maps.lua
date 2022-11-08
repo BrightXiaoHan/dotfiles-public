@@ -6,8 +6,8 @@ keymap.set('n', '<C-a>', 'gg<S-v>G')
 -- Window Resize
 keymap.set('n', '<C-Left>', '<C-w><')
 keymap.set('n', '<C-Right>', '<C-w>>')
-keymap.set('n', '<C-=>', '<C-w>+')
-keymap.set('n', '<C-->', '<C-w>-')
+keymap.set('n', '<leader>=', '<C-w>+')
+keymap.set('n', '<leader>-', '<C-w>-')
 keymap.set('n', '<leader>q', ':q<Return>')
 
 -- Telescope
