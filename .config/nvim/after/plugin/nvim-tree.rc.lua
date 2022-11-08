@@ -44,7 +44,7 @@ nvim_tree.setup {
     },
   },
   diagnostics = {
-    enable = true,
+    enable = false,
     show_on_dirs = true,
     icons = {
       hint = "",
@@ -63,5 +63,9 @@ nvim_tree.setup {
         { key = "v", cb = tree_cb "vsplit" },
       },
     },
+  },
+  filters = {
+    dotfiles = false,
+    exclude = { ".vscode", ".git" },
   },
 }
