@@ -26,6 +26,7 @@ local leaderkeymap = {
       v = { "<cmd>vsplit<cr>", "VSplit" },
     },
     e = { "<cmd>NvimTreeToggle<cr>", "Explorer" },
+    f = { "<cmd>Telescope current_buffer_fuzzy_find<cr>", "Find" },
 }
 
 local status, wk = pcall(require, "whichkey_setup")
