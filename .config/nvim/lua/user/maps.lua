@@ -1,6 +1,7 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 local keymap = vim.keymap
+
 -- Select all
 keymap.set('n', '<C-a>', 'gg<S-v>G')
 -- Window Resize
@@ -8,7 +9,6 @@ keymap.set('n', '<C-Left>', '<C-w><')
 keymap.set('n', '<C-Right>', '<C-w>>')
 keymap.set('n', '<leader>=', '<C-w>+')
 keymap.set('n', '<leader>-', '<C-w>-')
-keymap.set('n', '<leader>q', ':q<Return>')
 
 -- Telescope
 keymap.set('n', '<C-p>', ':Telescope find_files<CR>')
@@ -27,6 +27,7 @@ local leaderkeymap = {
     },
     e = { "<cmd>NvimTreeToggle<cr>", "Explorer" },
     f = { "<cmd>Telescope current_buffer_fuzzy_find<cr>", "Find" },
+    q = { "<cmd>q<cr>", "Quit" },
 }
 
 local status, wk = pcall(require, "whichkey_setup")
