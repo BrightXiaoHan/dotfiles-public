@@ -59,6 +59,7 @@ packer.startup(function(use)
   use 'liuchengxu/vim-which-key'
   use {
     'AckslD/nvim-whichkey-setup.lua',
-    requires = {'liuchengxu/vim-which-key'},
+    requires = { 'liuchengxu/vim-which-key' },
   }
+  use 'stevearc/aerial.nvim'
 end)

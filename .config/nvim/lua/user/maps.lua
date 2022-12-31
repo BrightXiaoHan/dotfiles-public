@@ -28,6 +28,7 @@ local leaderkeymap = {
     e = { "<cmd>NvimTreeToggle<cr>", "Explorer" },
     f = { "<cmd>Telescope current_buffer_fuzzy_find<cr>", "Find" },
     q = { "<cmd>q<cr>", "Quit" },
+    o = { "<cmd>AerialToggle<cr>", "Outline" },
 }
 
 local status, wk = pcall(require, "whichkey_setup")
