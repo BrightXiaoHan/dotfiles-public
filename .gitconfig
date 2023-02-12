@@ -60,3 +60,5 @@
 	name = BrightXiaoHan
 [credential]
 	helper = store
+[http]
+	sslverify = false

@@ -45,7 +45,7 @@ nvim_tree.setup {
   },
   diagnostics = {
     enable = false,
-    show_on_dirs = true,
+    show_on_dirs = false,
     icons = {
       hint = "",
       info = "",
@@ -65,7 +65,10 @@ nvim_tree.setup {
     },
   },
   filters = {
-    dotfiles = false,
-    exclude = { ".vscode", ".git" },
+    dotfiles = true,
+    exclude = { ".vscode" },
+    custom = {
+      "__pycache__",
+    },
   },
 }
